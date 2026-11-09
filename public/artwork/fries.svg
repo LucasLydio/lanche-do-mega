@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f8e6c8"/><stop offset="1" stop-color="#ead1a8"/></linearGradient>
+    <linearGradient id="fry" x2="0" y2="1"><stop stop-color="#ffd978"/><stop offset="1" stop-color="#d58a32"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="900" height="650" fill="url(#paper)"/>
+  <circle cx="170" cy="110" r="105" fill="#fff8ed" opacity=".42"/>
+  <ellipse cx="455" cy="550" rx="278" ry="31" fill="#57412f" opacity=".2" filter="url(#shadow)"/>
+  <ellipse cx="450" cy="475" rx="276" ry="105" fill="#fffaf1"/>
+  <ellipse cx="450" cy="461" rx="226" ry="67" fill="#ead9bf"/>
+  <g fill="url(#fry)" stroke="#bd7628" stroke-width="4" stroke-linejoin="round">
+    <path d="m260 407 26-196 44 5-18 205z"/><path d="m307 419 7-231 46 2 3 227z"/>
+    <path d="m361 403 25-253 45 4-18 258z"/><path d="m412 405 12-230 47 1 4 228z"/>
+    <path d="m468 410-7-254 46-3 22 254z"/><path d="m520 420-20-220 44-5 35 208z"/>
+    <path d="m567 426-42-190 42-11 55 183z"/><path d="m218 430 44-178 43 12-28 186z"/>
+  </g>
+  <path d="M207 424c35 28 85 42 150 43-34 34-91 44-164 18-14-14-12-43 14-61Z" fill="#d74432"/>
+  <path d="M190 482c94 54 307 57 512-1-42 91-116 132-250 132S239 575 190 482Z" fill="#fffaf1" stroke="#d9c6a9" stroke-width="8"/>
+  <path d="M115 112h110" stroke="#d74432" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+</svg>
