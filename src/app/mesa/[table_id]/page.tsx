@@ -1,5 +1,9 @@
 'use client';
 
+import "./menu.css";
+import "./ordering.css";
+import "./responsive.css";
+
 import {
   ADD_ONS,
   MENU_CATEGORIES,
@@ -239,7 +243,7 @@ export default function CustomerOrderingPage() {
           <div className="hero-image-wrap">
             <Image
               className="hero-image"
-              src="/images/burger.png"
+              src="/images/buguer03.jpg"
               alt="Hambúrguer artesanal com queijo e salada"
               fill
               priority

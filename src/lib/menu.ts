@@ -31,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Smash 160g, queijo prato, cebola na chapa e molho da casa.',
     category: 'Lanches',
     priceCents: 3290,
-    image: '/images/burger.png',
+    image: '/images/buguer02.jpg',
     featured: true,
     customizable: true,
   },
@@ -41,7 +41,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Dois smash, cheddar cremoso, bacon crocante e barbecue.',
     category: 'Lanches',
     priceCents: 3890,
-    image: '/images/extras.png',
+    image: '/images/buguer03.jpg',
     customizable: true,
   },
   {
@@ -50,7 +50,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Frango empanado, coleslaw fresquinha e maionese de limão.',
     category: 'Lanches',
     priceCents: 2990,
-    image: '/images/burger.png',
+    image: '/images/buguer04.jpg',
     customizable: true,
   },
   {
@@ -59,7 +59,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Burger de grão-de-bico, queijo coalho e relish de pepino.',
     category: 'Lanches',
     priceCents: 3190,
-    image: '/images/burger.png',
+    image: '/images/buguer05.jpg',
     customizable: true,
   },
   {

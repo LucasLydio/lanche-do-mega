@@ -1,5 +1,9 @@
 'use client';
 
+import "./kitchen-dashboard.css";
+import "./kitchen-tickets.css";
+import "./kitchen-access.css";
+
 import { formatBRL } from '@/lib/menu';
 import {
   loadActiveOrders,

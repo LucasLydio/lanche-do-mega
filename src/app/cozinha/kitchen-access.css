@@ -1,0 +1,219 @@
+.kitchen-gate {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  background: var(--kds-canvas, #20211f);
+  color: #fff7ea;
+}
+
+.gate-brand {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: var(--font-sm);
+  font-weight: 700;
+}
+
+.gate-brand > span,
+.gate-icon {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border-radius: var(--radius-sm);
+  background: var(--color-primary-cta);
+  color: white;
+}
+
+.staff-login {
+  display: flex;
+  width: min(100%, 25rem);
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 247, 234, 0.14);
+  border-radius: var(--radius-md);
+  background: #292a27;
+  box-shadow: var(--shadow-xlg);
+}
+
+.staff-login .gate-icon {
+  margin-bottom: 1rem;
+}
+
+.staff-login h1 {
+  font-size: 1.55rem;
+}
+
+.gate-copy,
+.gate-message {
+  margin: 0.5rem 0 1.1rem;
+  color: #b9b3a9;
+  font-size: var(--font-sm);
+}
+
+.gate-message {
+  margin: 0;
+}
+
+.staff-login label {
+  margin: 0.65rem 0 0.3rem;
+  color: #e1d8cb;
+  font-size: var(--font-xsm);
+  font-weight: 700;
+}
+
+.staff-login input {
+  min-height: 2.9rem;
+  padding: 0 0.7rem;
+  border: 1px solid #5b5c55;
+  border-radius: var(--radius-sm);
+  background: #1e1f1c;
+  color: #fff7ea;
+}
+
+.staff-login input:focus {
+  border-color: #e28364;
+  outline: 3px solid rgba(215, 68, 50, 0.3);
+}
+
+.kds-primary-button {
+  min-height: 3rem;
+  margin-top: 1rem;
+  font-size: var(--font-sm);
+}
+
+.kds-secondary-button {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+}
+
+.gate-back-link {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+  color: #d5ccbf;
+  font-size: var(--font-xsm);
+}
+
+.gate-error {
+  margin-top: 0.6rem;
+  color: #ffaaa0;
+  font-size: var(--font-xsm);
+}
+
+@keyframes ticket-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.35rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 850px) {
+  .kds-main {
+    padding-top: 2.5rem;
+  }
+
+  .order-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-lg);
+  }
+
+  .kds-overview h1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .kds-header {
+    min-height: 4rem;
+    padding: 0 0.75rem;
+  }
+
+  .kds-brand-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .kds-brand {
+    font-size: var(--font-xsm);
+  }
+
+  .kds-brand strong {
+    font-size: 0.55rem;
+  }
+
+  .kds-header-right {
+    gap: 0.35rem;
+  }
+
+  .kds-live {
+    width: 2rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .kds-back-link {
+    width: 2.5rem;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 0;
+  }
+
+  .kds-main {
+    width: min(100% - 1.1rem, 90rem);
+    padding-top: 1.4rem;
+  }
+
+  .kds-overview {
+    align-items: start;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .kds-overview h1 {
+    font-size: 1.6rem;
+  }
+
+  .kds-controls {
+    width: 100%;
+  }
+
+  .kds-count {
+    margin-right: auto;
+  }
+
+  .kds-control-button {
+    min-height: 2.65rem;
+    padding: 0 0.55rem;
+  }
+
+  .kds-status-line {
+    flex-wrap: wrap;
+    margin-top: 0.85rem;
+  }
+
+  .order-grid {
+    grid-template-columns: 1fr;
+    margin-top: var(--space-md);
+  }
+
+  .kds-empty-state {
+    min-height: 17rem;
+    padding: var(--space-md);
+  }
+}
